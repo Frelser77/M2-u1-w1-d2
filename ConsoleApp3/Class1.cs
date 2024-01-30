@@ -58,13 +58,16 @@ namespace ConsoleApp3
             }
             else if (Eta == 17)
             {
-                Console.WriteLine("Mi dispiace, non puoi proseguire oltre torna tra un anno per sapere cosa nascondiamo");
-                Console.WriteLine("Ciao a presto");
+                Console.WriteLine("Mi dispiace, non puoi proseguire oltre torna tra un anno per sapere cosa nascondiamo o...");
+                Console.WriteLine("Aggiungiti l'anno che ti manca");
+                Console.ReadLine();
+                Console.WriteLine("NO!NO!NO!NO!");
             }
             else
+
             {
                 Console.WriteLine("Mi dispiace, non puoi proseguire oltre torna tra " + (18 - Eta) + " un anni per sapere cosa nascondiamo");
-                Console.WriteLine("Ciao ci rivedremo quando crescerai!");
+                Console.WriteLine("Ciao, ci rivedremo quando crescerai!");
             }
         }
 

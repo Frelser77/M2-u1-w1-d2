@@ -60,21 +60,17 @@ namespace ConsoleApp3
             Console.WriteLine("\n");
 
             Console.WriteLine("Inserisci la tua età");
-            int eta;
-            while (!int.TryParse(Console.ReadLine(), out eta))
-            {
-                Console.WriteLine("Inserire un valore nuemrico");
-            }
+            int eta = Convert.ToInt16(Console.ReadLine());
 
             Console.WriteLine("\n");
 
             // inizializzo
-            Persona persona = new Persona(nome, cognome, eta);
+            Persona user = new Persona(nome, cognome, eta);
 
             // Mostro la classe persona inizializzata sopra
-            Console.WriteLine(persona.GetDetails());
+            Console.WriteLine(user.GetDetails());
             // Verifica Eta
-            persona.VerificaEta();
+            user.VerificaEta();
 
 
             Console.ReadLine();
