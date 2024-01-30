@@ -44,11 +44,13 @@ namespace ConsoleApp3
             return Eta;
         }
 
+        // RECUPERA NOME, COGNOME E ETA
         public string GetDetails()
         {
             return "Il nome é " + GetNome() + ", il suo cognome é " + GetCognome() + " e la sua etá é " + GetEta();
         }
 
+        // CONTROLLO MAGGIORE ETÁ BASATO SU ETA RACCOLTO DALL'IMPUT IN MAIN
         public void VerificaEta()
         {
             if (Eta >= 18)

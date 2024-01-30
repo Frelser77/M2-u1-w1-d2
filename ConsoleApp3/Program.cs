@@ -69,7 +69,7 @@ namespace ConsoleApp3
 
             // Mostro la classe persona inizializzata sopra
             Console.WriteLine(user.GetDetails());
-            // Verifica Eta
+            // Verifica Eta con imput
             user.VerificaEta();
 
 
